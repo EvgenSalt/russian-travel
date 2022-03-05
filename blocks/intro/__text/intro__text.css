@@ -1,0 +1,20 @@
+.intro__text {
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 208px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* display: grid;
+  align-content: space-around;
+  justify-self: start;  */
+  margin: 40px 0 0;
+}
+
+@media (max-width: 900px) {
+  .intro__text {
+    display: inline-block;
+    margin: 40px 0 0;
+  }
+}
