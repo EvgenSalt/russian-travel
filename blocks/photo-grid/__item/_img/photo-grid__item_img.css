@@ -14,3 +14,9 @@
     width: calc(352px + (300 - 352) * ((100vw - 768px) / (1024 - 768)));
   }
 }
+
+@media (max-width: 768px) {
+  .photo-grid__item_img {
+    width: calc(288px + (352 - 288) * ((100vw - 320px) / (768 - 320)));
+  }
+}
