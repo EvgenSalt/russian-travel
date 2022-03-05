@@ -13,17 +13,21 @@
   
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .intro__title {
     width: 720px;
-    /* font-size: 6vw; */
   }
-}
+} */
 
 @media (max-width: 767px) {
   .intro__title {
     display: inline-block;
-    font-size: 32px;
     line-height: 109%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .intro__title {
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (1280 - 320)));
   }
 }
