@@ -5,10 +5,18 @@
   "title website"
   "img paragraph";
   gap: 48px 40px;
-  width: 984px;
+  max-width: 984px;
   margin-bottom: 80px;
 }
 
 .places__article:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .places__article {
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+    margin-bottom: 45px;
+  }
 }

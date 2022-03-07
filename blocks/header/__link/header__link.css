@@ -3,11 +3,15 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 117%;
   width: 29px;
   height: 28px;
-  /* identical to box height, or 117% */
-  text-align: right;
+  /* text-align: right; */
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.header__link:hover {
+  transition: .3s ease-out;
+  opacity: 0.8;
 }

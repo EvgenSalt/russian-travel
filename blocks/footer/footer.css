@@ -1,0 +1,12 @@
+.footer {
+  box-sizing: border-box;
+  margin: 92px auto 0;
+  /* padding-bottom: 24px; */
+  max-width: 1184px;
+  max-height: 18px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

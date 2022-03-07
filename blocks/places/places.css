@@ -4,3 +4,10 @@
   height: 100%;
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .places {
+    margin: 90px 48px;
+    width: 928px;
+  }
+}

@@ -10,3 +10,8 @@
   text-decoration-line: underline;
   color: #FFFFFF;
 }
+
+.places__website_link:hover {
+  transition: .3s ease-out;
+  opacity: 0.8;
+}

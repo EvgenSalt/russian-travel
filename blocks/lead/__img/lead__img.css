@@ -4,3 +4,10 @@
   max-height: 615px;
   object-fit: cover;
 }
+
+
+@media (max-width: 1024px) {
+  .lead__img {
+    margin: 56px auto 0;
+  }
+}

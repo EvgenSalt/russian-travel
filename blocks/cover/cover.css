@@ -1,6 +1,7 @@
 .cover {
   box-sizing: border-box;
-  margin: 0 auto 92px;
+  margin: 0 auto;
+  /* padding-bottom: 92px; */
   max-width: 1184px;
   height: 740px;
   color: #fff;
@@ -28,4 +29,10 @@
   transition: .3s ease-out;
   background-color: #2A2C2F;
   opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    height: 640px;
+  }
 }

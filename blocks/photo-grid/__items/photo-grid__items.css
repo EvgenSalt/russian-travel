@@ -1,7 +1,7 @@
 .photo-grid__items {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 16px;
+  gap: 10px;
   padding: 0;
   justify-items: center;
   object-fit: cover;
@@ -9,7 +9,7 @@
 
 @media (max-width: 1024px) {
   .photo-grid__items {
-    gap: 14px;
+    gap: 10px;
   }
 }
 
