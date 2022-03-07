@@ -1,14 +1,11 @@
 .intro__text {
-  box-sizing: border-box;
-  max-width: 100%;
+  /* box-sizing: border-box; */
+  max-width: 690px;
   max-height: 208px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  /* display: grid;
-  align-content: space-around;
-  justify-self: start;  */
   margin: 40px 0 0;
 }
 

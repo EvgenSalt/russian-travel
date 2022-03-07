@@ -1,6 +1,4 @@
 .lead__title {
-  /* box-sizing: border-box;
-  display: inline-block; */
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -9,5 +7,4 @@
   font-size: 96px;
   line-height: 104%;
   max-width: 720px;
-  /* max-height: 200px; */
 }

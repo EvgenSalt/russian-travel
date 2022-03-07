@@ -8,26 +8,11 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 107%;
-  display: grid;
-  grid-template-columns: max-content;
-  
 }
-
-/* @media (max-width: 768px) {
-  .intro__title {
-    width: 720px;
-  }
-} */
 
 @media (max-width: 767px) {
   .intro__title {
     display: inline-block;
     line-height: 109%;
-  }
-}
-
-@media (max-width: 1280px) {
-  .intro__title {
-    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (1280 - 320)));
   }
 }
