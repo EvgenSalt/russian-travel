@@ -5,9 +5,14 @@
   object-fit: cover;
 }
 
-
 @media (max-width: 1024px) {
   .lead__img {
     margin: 56px auto 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__img {
+    margin: 40px auto 0;
   }
 }

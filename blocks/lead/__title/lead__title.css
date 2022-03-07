@@ -8,3 +8,10 @@
   line-height: 104%;
   max-width: 720px;
 }
+
+@media (max-width: 740px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 110%;
+  }
+}

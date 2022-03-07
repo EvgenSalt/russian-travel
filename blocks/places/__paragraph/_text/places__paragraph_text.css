@@ -10,8 +10,13 @@
   align-items: start;
 }
 
+.places__paragraph_text:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
   .places__paragraph_text {
     font-size: 16px;
+    margin: 0 16px 25px;
   }
 }

@@ -1,12 +1,10 @@
 .header__link {
-  /* font-family: "Inter"; */
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 117%;
   width: 29px;
   height: 28px;
-  /* text-align: right; */
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -14,4 +12,13 @@
 .header__link:hover {
   transition: .3s ease-out;
   opacity: 0.8;
+}
+
+@media (max-width: 400px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 111%;
+    width: 22px;
+    height: 20px;
+  }
 }

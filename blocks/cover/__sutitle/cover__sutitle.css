@@ -1,6 +1,6 @@
 .cover__sutitle {
-  width: 360px;
-  height: 66px;
+  max-width: 360px;
+  max-height: 66px;
   margin: 0 auto;
   padding: 0;
   font-style: normal;
@@ -9,4 +9,13 @@
   line-height: 122%;
   text-align: center;
   position: relative;
+}
+
+@media (max-width: 570px) {
+  .cover__sutitle {
+    width: 288px;
+    max-height: 48px;
+    font-size: 14px;
+    line-height: 114%;
+  }
 }

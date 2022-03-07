@@ -29,3 +29,11 @@
   }
   
 }
+
+@media (max-width: 320px) {
+  .photo-grid__item_img {
+    width: 288px;
+    height: 216px;
+  }
+  
+}

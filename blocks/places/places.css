@@ -10,15 +10,23 @@
 @media (max-width: 1024px) {
   .places {
     margin: 90px 48px;
-    width: 928px;
+    /* width: 928px; */
     gap: 58px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1001px) {
   .places {
     margin: 90px 24px 65px;
-    width: 720px;
+    /* width: 720px; */
     gap: 44px;
+  }
+}
+
+@media (max-width: 370px) {
+  .places {
+    margin: 0 auto 66px;
+    /* width: 720px; */
+    gap: 60px;
   }
 }

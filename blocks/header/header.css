@@ -7,3 +7,9 @@
   max-width: 1184px;
   padding: 0;
 }
+
+@media (max-width: 400px) {
+  .header {
+    margin: 0 16px;
+  }
+}

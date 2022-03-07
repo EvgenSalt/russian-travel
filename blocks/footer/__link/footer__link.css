@@ -13,3 +13,10 @@
   transition: .3s ease-out;
   opacity: 0.8;
 }
+
+@media (max-width: 740px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+  }
+}

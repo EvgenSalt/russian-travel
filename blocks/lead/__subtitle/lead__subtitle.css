@@ -8,3 +8,11 @@
   font-size: 30px;
   line-height: 120%;
 }
+
+@media (max-width: 740px) {
+  .lead__subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+}

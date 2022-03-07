@@ -1,8 +1,7 @@
 .places__article {
   box-sizing: border-box;
-  max-width: 720px;
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 360px minmax(0, 1fr);
   grid-template-areas: 
   "title website"
   "img paragraph";
@@ -16,16 +15,26 @@
 
 @media (max-width: 1024px) {
   .places__article {
-    max-width: 928px;
-    grid-template-columns: 440px 1fr;
+    grid-template-columns: 440px minmax(0, 1fr);
     gap: 48px 32px;
   }
 }
 
 @media (max-width: 1020px) {
   .places__article {
-    max-width: 720px;
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 340px minmax(0, 1fr);
     gap: 48px 28px;
+  }
+}
+
+@media (max-width: 750px) {
+  .places__article {
+    grid-template-columns: 320px minmax(0, 1fr);
+    grid-template-areas: 
+    "title"
+    "website"
+    "img"
+    "paragraph";
+    gap: 32px;
   }
 }
