@@ -1,7 +1,6 @@
 .footer {
   box-sizing: border-box;
   margin: 92px auto 0;
-  /* padding-bottom: 24px; */
   max-width: 1184px;
   max-height: 18px;
   color: #fff;
@@ -9,4 +8,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    margin: 88px auto 0;
+  }
 }

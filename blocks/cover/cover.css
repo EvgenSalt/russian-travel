@@ -36,3 +36,9 @@
     height: 640px;
   }
 }
+
+@media (max-width: 1024px) {
+  .cover {
+    height: 480px;
+  }
+}

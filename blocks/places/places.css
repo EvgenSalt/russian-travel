@@ -1,13 +1,24 @@
 .places {
   margin: 92px auto;
-  width: 984px;
+  max-width: 984px;
   height: 100%;
   color: #fff;
+  display: grid;
+  gap: 80px;
 }
 
 @media (max-width: 1024px) {
   .places {
     margin: 90px 48px;
     width: 928px;
+    gap: 58px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    margin: 90px 24px 65px;
+    width: 720px;
+    gap: 44px;
   }
 }

@@ -1,4 +1,6 @@
 .places__article {
+  box-sizing: border-box;
+  max-width: 720px;
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-areas: 
@@ -6,7 +8,6 @@
   "img paragraph";
   gap: 48px 40px;
   max-width: 984px;
-  margin-bottom: 80px;
 }
 
 .places__article:last-child {
@@ -15,8 +16,16 @@
 
 @media (max-width: 1024px) {
   .places__article {
+    max-width: 928px;
     grid-template-columns: 440px 1fr;
     gap: 48px 32px;
-    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .places__article {
+    max-width: 720px;
+    grid-template-columns: 340px 352px;
+    gap: 48px 28px;
   }
 }
