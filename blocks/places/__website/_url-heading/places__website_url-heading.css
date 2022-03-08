@@ -1,5 +1,4 @@
 .places__website_url-heading {
-  display: block;
   height: 12px;
   margin: 0 0 12px;
   padding: 0;
@@ -9,6 +8,7 @@
   line-height: 170%;
   letter-spacing: 2px;
   color: #AAA;
+  margin-bottom: 14px;
 }
 
 @media (max-width: 768px) {

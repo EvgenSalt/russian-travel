@@ -1,5 +1,4 @@
 .intro__text {
-  /* box-sizing: border-box; */
   max-width: 690px;
   max-height: 208px;
   font-style: normal;
@@ -12,6 +11,5 @@
 @media (max-width: 900px) {
   .intro__text {
     display: inline-block;
-    margin: 40px 0 0;
   }
 }

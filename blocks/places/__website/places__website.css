@@ -1,12 +1,12 @@
 .places__website {
-  width: 100%;
-  height: 100%;
+  max-width: 456px;
   margin: 0;
   padding: 0;
   grid-area: website;
   display: grid;
+  grid-template-columns: repeat(1, minmax(46px, max-content));
   align-content: end;
-  align-items: end;
+  justify-content: space-between;
 }
 
 @media (max-width: 320px) {
