@@ -4,6 +4,7 @@
 Одностраничный сайт про путешествие по России. В рамках  обучения в [Яндекс.Практикум](https://practicum.yandex.ru/).
 
 **Ссылка на проект**
+
 [Жми] https://evgensalt.github.io/russian-travel/index.html
 
 
