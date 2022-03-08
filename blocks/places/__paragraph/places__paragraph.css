@@ -6,3 +6,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 350px) {
+  .places__paragraph {
+    max-width: 288px;
+    margin-left: 16px;
+  }
+}
