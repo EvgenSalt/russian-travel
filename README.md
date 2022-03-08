@@ -3,9 +3,8 @@
 ### О ПРОЕКТЕ
 Одностраничный сайт про путешествие по России. В рамках  обучения в [Яндекс.Практикум](https://practicum.yandex.ru/).
 
-**Ссылка на проект**
 
-[**Ссылка на проект**] (https://evgensalt.github.io/russian-travel/index.html)
+* [**Ссылка на проект**](https://evgensalt.github.io/russian-travel/index.html)
 
 
 ### Обзор
