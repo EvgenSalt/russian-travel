@@ -5,7 +5,7 @@
 
 **Ссылка на проект**
 
-[Жми] https://evgensalt.github.io/russian-travel/index.html
+[**Ссылка на проект**] (https://evgensalt.github.io/russian-travel/index.html)
 
 
 ### Обзор
